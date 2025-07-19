@@ -1,6 +1,7 @@
 package com.phonebook.tests;
 
 import com.phonebook.cor.TestBase;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -39,7 +40,9 @@ public class DeleteContactTest extends TestBase {
         deleteContactRequest(contactId, AUTHORIZATION, accessToken)
                 .assertThat().statusCode(200)
                 .assertThat().body("message", containsString("Contact was deleted!"));
-    }
 
+        logger.info("Assert checks status code is 200");
+    logger.info("Assert checks message contains - Contact was deleted!");
+    }
 
 }

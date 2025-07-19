@@ -1,0 +1,5 @@
+16:24:21.593 [main] INFO  com.phonebook.cor.TestBase -- logger info deleteContactSuccessTest with data: []
+16:24:25.197 [main] INFO  com.phonebook.cor.TestBase -- Assert checks status code is 200
+16:24:25.197 [main] INFO  com.phonebook.cor.TestBase -- Assert checks message contains - Contact was deleted!
+16:24:25.200 [main] INFO  com.phonebook.cor.TestBase -- PASSEND: deleteContactSuccessTest
+16:24:25.200 [main] INFO  com.phonebook.cor.TestBase -- =============================
